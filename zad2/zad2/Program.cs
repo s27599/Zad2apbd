@@ -20,4 +20,17 @@ class Program
         }
         return sum / counter;
     }
+    
+    public static double max(int[] tab)
+    {
+        int max = Int32.MinValue;
+        foreach (int val in tab) {
+            if (max < val)
+            {
+                max = val;
+            }
+        }
+        return max;
+    }
+    
 }
